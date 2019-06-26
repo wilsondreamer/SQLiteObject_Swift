@@ -1,0 +1,33 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - SQLite.swift (0.11.6):
+    - SQLite.swift/standard (= 0.11.6)
+  - SQLite.swift/standard (0.11.6)
+  - SQLiteObject (0.1.0):
+    - SQLite.swift (~> 0.11.4)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase (~> 2.1.4)
+  - SQLiteObject (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+    - SQLite.swift
+
+EXTERNAL SOURCES:
+  SQLiteObject:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  SQLite.swift: 46d890be8601964454bd3392527f863d1b802d45
+  SQLiteObject: 2d1ce3350c8a0d3b9ca47082e3df46b19625e88a
+
+PODFILE CHECKSUM: 6f832116829fa5d3a265f7211ca933e56b4e7a1d
+
+COCOAPODS: 1.6.1

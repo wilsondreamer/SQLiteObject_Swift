@@ -1,0 +1,6 @@
+framework module SQLiteObject {
+  umbrella header "SQLiteObject-umbrella.h"
+
+  export *
+  module * { export * }
+}
